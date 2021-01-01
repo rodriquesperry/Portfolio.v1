@@ -1,0 +1,151 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+#body {
+  font-family: 'Montserrat Alternates';
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  color: #808080
+
+}
+
+
+
+/* Navbar Section */
+.navbar {
+  background-color: #000000;
+
+}
+
+#brand {
+  font-size: 2rem;
+
+}
+
+
+.link {
+  font-size: 2rem;
+}
+
+/* Header Section */
+
+#header {
+  background-color: #f8f1f1;
+}
+
+.container {
+  padding-top: 20px;
+  /* text-align: center;
+  justify-content: center; */
+}
+
+#image {
+  height: 140px;
+  border-radius: 100%;
+  border: 3px solid;
+  border-color: #6a8caf;
+  display: block;
+  margin: 5px auto 20px auto;
+}
+
+.brackets {
+  font-size: 20rem;
+}
+
+.intro {
+  display: flex;
+  font-size: 2.5rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1.2;
+  padding: 90px 0 90px;
+  color: #000000;
+  white-space: wrap;
+  margin: 0 auto;
+  font-family: 'Ubuntu Mono'}
+
+
+
+/* Portfolio Section */
+
+#myPortfolio {
+  background-color: #feffdf;
+  padding-bottom: 50px;
+  font-family: 'Ubuntu Mono'
+}
+
+.portfolio-title {
+  text-align: center;
+  padding: 5.5% 0 30px;
+  font-size: 4vw;
+}
+
+.card-deck {
+  margin: 30px 0;
+}
+
+.card {
+  /* justify-content: space-between; */
+  /* display: flex; */
+  /* flex-direction: column; */
+}
+
+.card-btn {
+  /* justify-content: flex-end; */
+  /* display: flex; */
+  
+}
+
+/* Development Skills Section */
+
+
+#skills-header {
+  padding: 100px 0 100px;
+  text-align: center;
+  font-size: 4vw;
+  font-family: 'Ubuntu Mono'
+}
+
+.skills-icon {
+  height: 120px;
+  filter: grayscale(1);
+  opacity: 0.2;
+  margin-bottom: 100px;
+
+}
+
+.skills-icon:hover {
+  filter: none;
+  opacity: 100;
+}
+
+.skill-text {
+  font-size: 1.5rem;
+  font-family: 'Ubuntu Mono';
+  color: #808080;
+}
+
+/* Footer */
+
+#footer {
+  text-align: center;
+  background-color: #000000;
+  padding-bottom: 2px;
+  margin: 0;
+
+}
+
+.footer-icon {
+  padding: 2% 1%;
+  color: #fff;
+}
+
+.copywrite {
+  color: white;
+}
